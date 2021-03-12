@@ -1,6 +1,6 @@
 import React from 'react'
 
-function dropdown() {
+function Dropdown() {
     return (
         <div className="dropdown">
             <ul className="dropdown__list">
@@ -23,4 +23,4 @@ function dropdown() {
     )
 }
 
-export default dropdown;
+export default Dropdown;

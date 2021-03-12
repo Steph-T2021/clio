@@ -1,6 +1,6 @@
 import React from 'react'
 
-function search() {
+function Search() {
     return (
         <div className="search">
             <form className="search__form">
@@ -12,4 +12,4 @@ function search() {
     )
 }
 
-export default search;
+export default Search;
