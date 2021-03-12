@@ -28,6 +28,7 @@
         border: 1px solid #D7D7D7;
         box-sizing: border-box;
         border-radius: 5px;
+      
     }
 
     &__search{
@@ -46,6 +47,14 @@
         height: 34px;
         margin-top: 25px;
     }
+
+
+}
+
+.fa-chevron {
+    width: 12%;
+    transform:rotate(90deg);
+  
 
 
 }

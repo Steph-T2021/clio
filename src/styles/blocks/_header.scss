@@ -5,9 +5,7 @@
     margin-right:120px;
 
 
-    &__brand{
-
-    }
+   
 
     &__logo{
         width:173px;
@@ -20,6 +18,7 @@
         color: #2D3C43;
         margin-top: 38px;
         margin-bottom: 38px;
+   
     }
 
     &__navGroup{
@@ -42,4 +41,17 @@
         padding-right:23.5px;
     }
 
+}
+.arrow {
+    width: 16%;
+    transform:rotate(90deg);
+}
+
+.column__one {
+    display: flex;
+    width: 66%;
+    justify-content: space-evenly;
+}
+.column__two {
+    display: contents;
 }
