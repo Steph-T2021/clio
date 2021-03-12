@@ -28,8 +28,16 @@
         border: 1px solid #D7D7D7;
         box-sizing: border-box;
         border-radius: 5px;
+        background:$white;
+        // margin-right: 10px;
     }
 
+    &__arrow{
+        margin-left:20px;
+    }
+    &__city{
+        margin-left:20px;
+    }
     &__search{
         background-color:  #0070E0;
         color:$white;

@@ -2,6 +2,7 @@ import logo from "./assets/logos/clio-logo.svg";
 import map from "./assets/images/DT Vancouver Map.png"
 import location from  "./assets/icons/akar-icons_location.png";
 import rightArrow from "./assets/icons/chevron.svg";
+import cityLocation from "./assets/icons/location.svg";
 import Header from "./components/Header";
 import './App.css';
 import TopBanner from "./components/TopBanner";
@@ -13,9 +14,9 @@ import MainNavBar from "./components/MainNavBar";
 function App() {
   return (
     <div>
-      <Header logo={logo}/>
+      <Header logo={logo} rightArrow={rightArrow}/>
       <TopBanner/>
-      <MainNavBar/>
+      <MainNavBar rightArrow={rightArrow} location={cityLocation}/>
 
   <div className="testing">
     <div className="main-section">
@@ -24,7 +25,7 @@ function App() {
               <img className="main-section__pin" src={location} alt="location pin icon"/>
             <div className="main-section__grouptesting">
               <div className="main-section__groupInfo">
-                <p className="main-section__title">RWE Family Law</p>
+                <p className="main-section__title">MacLean Family Law</p>
                 <p className="main-section__text">Family law attorney</p>
                 <p className="main-section__text">808 Nelson St #1700</p>
                 <p className="main-section__text">(604)259-2425</p>
