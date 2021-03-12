@@ -1,0 +1,16 @@
+.top-banner{
+    background-color:$charcoal;
+    color:$white;
+    font-family: 'Hoefler Text';
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 50px;
+    padding-left:120px;
+    padding-top:66px;
+    padding-bottom:29px;
+
+    &__text{
+        margin:0;
+    }
+
+}

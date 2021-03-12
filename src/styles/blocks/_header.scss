@@ -1,0 +1,45 @@
+.site-header{
+    overflow: auto;
+    @extend .container;
+    margin-left:106px;
+    margin-right:120px;
+
+
+    &__brand{
+
+    }
+
+    &__logo{
+        width:173px;
+    }
+    &__navTitle{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        color: #2D3C43;
+        margin-top: 38px;
+        margin-bottom: 38px;
+    }
+
+    &__navGroup{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__try{
+        background-color:  #0070E0;
+        color:$white;
+        width: 130px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        border-radius: 50px;
+        border:none;
+        padding-top:11px;
+        padding-bottom: 11px;
+        padding-left:23.5px;
+        padding-right:23.5px;
+    }
+
+}

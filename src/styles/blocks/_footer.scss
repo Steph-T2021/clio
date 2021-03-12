@@ -1,0 +1,27 @@
+.footer-section{
+    background-color: #222C31;
+    color:$white;
+    list-style: none;
+    
+    &__group{
+        margin:0;
+        list-style:none;
+        padding-top: 49px;
+        padding-bottom: 49px;
+        display:flex;
+        justify-content: space-evenly;
+
+    }
+    &__product{
+        // list-style:none;
+    }
+
+    &__title{
+        // text-decoration: none;
+        // list-style:none;
+    }
+    &__list{
+        // text-decoration: none;
+        // list-style: none;
+    }
+}

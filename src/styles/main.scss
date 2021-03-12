@@ -1,3 +1,111 @@
 @import '../styles/partials/fonts';
 @import '../styles/partials/general';
-// @import '../styles/blocks/header';
+@import '../styles/partials/variables';
+@import '../styles/blocks/header';
+@import '../styles/blocks/topbanner';
+@import '../styles/blocks/mainnavbar';
+@import '../styles/blocks/bottombanner';
+@import '../styles/blocks/footer';
+
+.testing{
+    display: flex;
+
+}
+
+.main-section{
+    width:50%;
+    margin-top:34px;
+    margin-bottom: 50px;
+    //  border: 2px dashed green;
+    // @extend .main_container;
+    margin-left:120px;
+    // padding-top:34px;
+    // padding-bottom: 50px;
+    height: 582px;
+    // width: 587px;
+    overflow-y: auto;
+    
+    &__cards{
+        display:flex;
+        flex-direction: column;
+        // background-color: blue;
+
+    }
+    &__left{
+        //  width:50%;
+        background-color: pink;
+        // margin-right: 21px;
+        display: flex;
+        align-items: flex-start;
+        padding-left: 23px;
+        padding-top: 20px;
+        // padding-right: 16px;
+        padding-bottom: 20px;
+        border: 1px solid #D7D7D7;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        width: 587px;
+        height: 154px;
+        margin-bottom: 16px;
+        
+    }
+    &__groupTitle{
+        // background-color: blue;
+        display: flex;
+        flex-direction: row;
+        // width: 100%;
+    }
+    &__pin{
+        width: 40px;
+        height:40px;
+
+    }
+    &__title{
+        margin:0 auto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 8px;
+    }
+    &__text{
+        margin:0 auto;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        color:$slate;
+    }
+    &__grouptesting{
+        display:flex;
+        // align-items: center;  
+        align-items:flex-end;
+        // justify-content:space-between;      
+        
+    }
+
+    &__groupInfo{
+
+    }
+    &__rightArrow{
+        transform: rotate(-90deg);
+        width: 24px;
+        height:24px;
+        margin-left: 200px;
+
+    }
+    &__right{
+        width:50%;
+        // background-color:lightblue;
+        padding-top:34px;
+        padding-bottom: 50px;
+        margin-right:120px;
+        margin-left: 21px;
+    }
+
+    &__map{
+        width:100%;
+        background-size: cover;
+        background-position:center;
+        height: 582px;
+    }
+}
+

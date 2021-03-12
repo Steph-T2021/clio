@@ -1,0 +1,51 @@
+.main-nav{
+    @extend .container;
+    // border: 2px dashed blue;
+    margin-left:106px;
+    margin-right:120px;
+    margin-top:21px;
+    display:flex;
+    justify-content: space-between;
+
+    &__container{
+        // border: 2px dashed green;
+        display: flex;
+        flex-direction: column;
+        width:203px;
+
+    }
+    &__formlabel{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    &__forminput{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 27px;
+        border: 1px solid #D7D7D7;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+
+    &__search{
+        background-color:  #0070E0;
+        color:$white;
+        width: 130px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        border-radius: 50px;
+        border:none;
+        padding-top:8px;
+        padding-bottom: 8px;
+        padding-left:32px;
+        padding-right:32px;
+        height: 34px;
+        margin-top: 25px;
+    }
+
+
+}

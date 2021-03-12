@@ -1,10 +1,8 @@
 import React from 'react'
 
-function Button() {
+function Button(props) {
     return (
-        <div>
-            
-        </div>
+        <button className={props.className} type="submit">{props.text}</button>
     )
 }
 
